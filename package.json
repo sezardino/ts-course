@@ -1,0 +1,26 @@
+{
+  "name": "ts-course",
+  "version": "1.0.0",
+  "description": "based on https://www.udemy.com/course/typescript-full/",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsc --watch",
+    "start:watch": "nodemon ./dist/index.js",
+    "start": "concurrently \"npm run start:*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sezardino/ts-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sezardino/ts-course/issues"
+  },
+  "homepage": "https://github.com/sezardino/ts-course#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
